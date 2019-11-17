@@ -1,0 +1,25 @@
+{
+  "name": "jsii-example",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "your_name",
+  "repository": {
+    "url": "https://example.com",
+    "type": "Git"
+  },
+  "license": "MIT",
+  "jsii": {
+    "outdir": "dist",
+    "targets": {
+      "python": {
+        "distName": "your_name.jsii_example",
+        "module": "your_name.jsii_example"
+      }
+    }
+  },
+  "devDependencies": {
+    "jsii": "^0.20.6",
+    "jsii-pacmak": "^0.20.6"
+  }
+}
